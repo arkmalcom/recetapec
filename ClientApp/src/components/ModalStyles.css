@@ -1,0 +1,79 @@
+/*Estilos para el componente Modal */
+.recipe-modal {
+    display: flex;
+    background-color: #BBB9A0;
+}
+
+.recipe-modal-header {
+    background-color: #A4C48C;
+}
+
+/*Estilos para el cuerpo de la receta */
+.recipe-summary {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #8BB283;
+}
+
+.recipe-contents {
+    display: flex;
+    align-items: center;
+}
+
+.recipe-contents img {
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px 3px #A4C48C;
+    -moz-box-shadow: 0 0 5px 3px #A4C48C;
+    box-shadow: 0 0 5px 3px #A4C48C;
+}
+
+.img-responsive {
+    display: block;
+    text-align: center;
+}
+
+/* Estilos para la lista de ingredientes */
+.recipe-ingredient-list {
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.recipe-ingredients {
+    font-size: 12px;
+    background-color: #EDF2C2;
+}
+
+.recipe-ingredient-list .disabled {
+    align-items: center;
+    text-align: center;
+}
+
+.list-group-item {
+    height: 28px;
+    border: none;
+    padding-top: 5px;
+}
+
+.disabled {
+    border-bottom: 1px solid #ADAC7D;
+    color: black !important;
+}
+
+.list-group {
+    border: 1px solid #ADAC7D;
+    border-radius: 5px;
+    -webkit-box-shadow: 9px 1px 15px -1px #ADAC7D;
+    -moz-box-shadow: 9px 1px 15px -1px #ADAC7D;
+    box-shadow: 9px 1px 15px -1px #ADAC7D;
+}
+
+/*Estilos para los pasos */
+
+.recipe-instructions h1 {
+    margin-top: 1em;
+    border: 1px solid #8BB283;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #A4C48C;
+    font-size: 18px;
+    text-align: center;
+}

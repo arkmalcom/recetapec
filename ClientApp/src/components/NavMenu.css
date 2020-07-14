@@ -1,0 +1,40 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.navbar-custom {
+  background-color: #8BB283;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.btn-option {
+  background-color: grey;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-right: 5px;
+  width: 90px;
+  height: 25px;
+}
+
+.btn-option:hover, .btn-option:focus, .btn-option:active {
+  border: 2px solid red;
+  border-radius: 4px;
+  outline: none;
+}
